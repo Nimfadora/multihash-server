@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/privacypolicy', function(req, res, next) {
-  res.render('index', { title: 'Hi, dear!' });
+  res.render('privacypolicy');
 });
 
 module.exports = router;
